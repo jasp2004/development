@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Packing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .order-info, .customer-info {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f4f4f4;
+        }
+        .button {
+            text-align: center;
+        }
+        .button button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Order Packing Page</h1>
+    </header>
+
+    <div class="order-info">
+        <h2>Order Details</h2>
+        <p><strong>Order ID:</strong> 12345</p>
+        <p><strong>Order Date:</strong> December 6, 2024</p>
+    </div>
+
+    <div class="customer-info">
+        <h2>Customer Information</h2>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Address:</strong> 123 Elm Street, Toronto, ON, Canada</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>SKU</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Widget A</td>
+                <td>2</td>
+                <td>WGT123</td>
+                <td>Packed</td>
+            </tr>
+            <tr>
+                <td>Gadget B</td>
+                <td>1</td>
+                <td>GDT456</td>
+                <td>Pending</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="button">
+        <button type="button">Mark as Packed</button>
+    </div>
+</body>
+</html>
